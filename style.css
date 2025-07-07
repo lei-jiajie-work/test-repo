@@ -13,17 +13,17 @@ td {
   height : 50px;
 }
 
-td::hover {
+td:hover {
   animation-name : hov;
   animation-duration : 1s;
 }
 
-th::hover {
+th:hover {
   animation-name : hov;
   animation-duration : 1s;
 }
 
-tr::hover {
+tr:hover {
   animation-name : hov2;
   animation-duration : 1s;
 }
