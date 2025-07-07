@@ -2,38 +2,46 @@ p {
   color : cornflowerblue;
   background-color : yellow;
 }
-
 th {
-  width : 50px;
-  height : 50px;
+  height : 100px;
+  width : 100px;
+  border : 4px;
+  border-style : solid;
 }
-
+    
 td {
-  width : 50px;
-  height : 50px;
+  height : 100px;
+  width : 100px;
+  border : 4px;
+  border-style : solid;
 }
 
 td:hover {
   animation-name : hov;
-  animation-duration : 1s;
+  animation-duration : 0.2s;
+  animation-fill-mode : forwards;
+  border-style : dashed;
 }
 
 th:hover {
   animation-name : hov;
-  animation-duration : 1s;
+  animation-duration : 0.2s;
+  animation-fill-mode : forwards;
+  border-style : dashed;
 }
 
 tr:hover {
   animation-name : hov2;
-  animation-duration : 1s;
+  animation-duration : 0.2s;
+  animation-fill-mode : forwards;
 }
 
 @keyframes hov {
-  from{background-color : rgba(1.0, 1.0, 1.0, 0.0);}
-  to{background-color : rgba(0.2, 0.5, 1.0, 1.0);}
+  from{background-color : rgba(255.0, 255.0, 255.0, 0.0);}
+  to{background-color : rgba(51, 122, 255.0, 1.0); !important}
 }
-
+	
 @keyframes hov2 {
   from{background-color : rgba(1.0, 1.0, 1.0, 0.0);}
-  to{background-color : rgba(0.7, 0.4, 0.1, 1.0);}
+  to{background-color : rgba(210, 170, 20, 1.0); !important}
 }
